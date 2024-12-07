@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-container {
+  @apply mx-auto max-w-[1920px] px-4 py-3 md:px-8 media1920:max-w-[1440px];
+}
+
+.hamburger-none {
+  @apply hidden;
+}
+
+.hamburger {
+  @apply absolute left-0 z-30 flex flex-col gap-3 backdrop-blur-3xl;
+}
