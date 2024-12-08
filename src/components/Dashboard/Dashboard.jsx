@@ -192,7 +192,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="section-container relative flex">
+    <div className="section-container flex">
       {/* Sidebar */}
       <Sidebar
         activeSection={activeSection}
@@ -209,7 +209,7 @@ export default function Dashboard() {
           {isSidebarOpen ? (
             <X
               size={34}
-              className="absolute -top-4 left-20 z-50 cursor-pointer rounded-md p-1 text-gray-500 hover:bg-gray-200"
+              className="absolute -top-4 left-28 z-50 cursor-pointer rounded-md p-1 text-gray-500 hover:bg-gray-200 md:left-24"
             />
           ) : (
             <Menu

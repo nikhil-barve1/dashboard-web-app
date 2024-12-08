@@ -10,6 +10,10 @@
   @apply hidden;
 }
 
+/* .hamburger {
+  @apply absolute left-0 z-30 flex flex-col gap-3 backdrop-blur-3xl duration-500 ease-in-out;
+} */
+
 .hamburger {
-  @apply absolute left-0 z-30 flex flex-col gap-3 backdrop-blur-3xl;
+  @apply absolute left-0 flex bg-gray-100 pt-2 transition delay-150 duration-1000 ease-in-out;
 }
