@@ -38,7 +38,7 @@ export default function Sidebar({
         <h1 className="self-start px-8 text-xs">MENU</h1>
         <button
           className={`flex w-[117px] justify-start gap-2 rounded-xl px-2.5 py-2.5 text-sm font-semibold duration-200 hover:bg-[#4b69ff] hover:text-white sm:w-auto sm:gap-3 sm:px-5 sm:py-3 sm:text-base sm:font-normal xl:w-48 ${
-            true ? "bg-[#4b69ff] text-white" : ""
+            activeSection === "products" ? "bg-[#4b69ff] text-white" : ""
           }`}
           onClick={() => onSelectSection("dashboard")}
         >
@@ -56,7 +56,7 @@ export default function Sidebar({
         </button>
         <button
           className={`flex w-[117px] justify-start gap-2 rounded-xl px-2.5 py-2.5 text-sm font-semibold duration-200 hover:bg-[#4b69ff] hover:text-white sm:w-auto sm:gap-3 sm:px-5 sm:py-3 sm:text-base sm:font-normal xl:w-48 ${
-            true ? "bg-[#4b69ff] text-white" : ""
+            activeSection === "products" ? "bg-[#4b69ff] text-white" : ""
           }`}
           onClick={() => onSelectSection("brands")}
         >
